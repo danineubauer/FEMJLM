@@ -18,6 +18,8 @@ function Jumbotron({ children }) {
               קהילה של נשים בהייטק ויזמות בירושלים
               </h4>
               <h4><a href="#" className="btn btn-primary btn-large">Learn more »</a></h4>
+              <h4><a href="#" className="btn btn-primary btn-large">Donate</a></h4>
+
             </div>
           </div>
         </div>

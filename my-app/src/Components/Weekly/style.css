@@ -1,0 +1,10 @@
+.fb-post { 
+    overflow-y:scroll;
+    height: 350px;
+}
+
+.femstar-title { 
+    margin: 0;
+    padding: 0;
+}
+

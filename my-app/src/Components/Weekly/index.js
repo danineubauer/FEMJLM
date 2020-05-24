@@ -1,45 +1,32 @@
 import React, { useContext } from "react";
-import './style.css'
+import Header from '../Header/index';
+import './style.css';
+import Textbox from "../Textbox/index";
 
 function Weekly() {
 
   return (
     <div>
-      <br></br><hr></hr>
+      <Header>Meet Our Community</Header>
 
       <div className="container">
-        
-        <div className="row">
-          <div className ="col-lg-12 col-md-12 col-sm-12">
-      
-            <div className="jumbotron  ">
-                <h2 className=" header display-4  "> Our Community</h2>
-            </div>
-          </div>
-        </div>
+        <div className='row'>
 
-      <div className="row">
-        
-        <div className="col-lg-6 col-md-6 col-sm-6">
-          <div className="jumbotron jumbotron-femstar">
-          <h5>Fem Start of the Week:</h5><br></br>
-          <div class="fb-post" data-href="https://www.facebook.com/FemJLM/posts/3066955370027655" data-show-text="true" data-width=""><blockquote cite="https://developers.facebook.com/FemJLM/posts/3066955370027655" class="fb-xfbml-parse-ignore"><p>Elena Liberte is the Director for Strategic Partnerships and HR at Made in Jerusalem.  Elena has wide-ranging and deep...</p>Posted by <a href="https://www.facebook.com/FemJLM/">FEM JLM</a> on&nbsp;<a href="https://developers.facebook.com/FemJLM/posts/3066955370027655">Tuesday, May 19, 2020</a></blockquote></div>
-           
-          </div>
-        </div>
+          <Textbox >
 
-        
-        <div className="col-lg-6 col-md-6 col-sm-6">
-          <div className="jumbotron ">
-          <h5>Meet the mentors:</h5><br></br>           
-          </div>
-        </div>
+            <h5 className="femstart-title">Fem Start of the Week:</h5><br></br>
+            <div className="fb-post" data-href="https://www.facebook.com/FemJLM/posts/3066955370027655" data-show-text="true" data-width=""><blockquote cite="https://developers.facebook.com/FemJLM/posts/3066955370027655" class="fb-xfbml-parse-ignore"><p>Elena Liberte is the Director for Strategic Partnerships and HR at Made in Jerusalem.  Elena has wide-ranging and deep...</p>Posted by <a href="https://www.facebook.com/FemJLM/">FEM JLM</a> on&nbsp;<a href="https://developers.facebook.com/FemJLM/posts/3066955370027655">Tuesday, May 19, 2020</a></blockquote></div>
+          </Textbox>
+          <Textbox>
+            sdfsd
+          </Textbox>
 
-            </div>
+        </div>
       </div>
-      </div>
-  
-      );
-      }
 
-      export default Weekly;
+    </div>
+
+  );
+}
+
+export default Weekly;

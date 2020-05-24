@@ -6,25 +6,38 @@ function Contact() {
 
   return (
     <div>
-    <br></br><hr></hr><br></br>
       <Header>
-        <p>Contact us</p>
+        <p>We want to hear from you!</p>
       </Header>
-      
-      <div className="row">
-        
-        <div className="col-lg-6 col-md-12 col-sm-12">
-          <div className="jumbotron jumbotron-femstar">
-            <h5>Contact form</h5>           
-          </div>
-        </div>
+      <div className='container'>
 
+        <form>
+          <div className="form-row">
+            <div className="col">
+              <input type="text" className="form-control" placeholder="First name"></input>
             </div>
+            <div className="col">
+              <input type="text" className="form-control" placeholder="Last name"></input>
+            </div>
+            <div className="col">
+              <input type="text" className="form-control" placeholder="Email"></input>
+            </div>
+          </div>
+          <br></br>
+
+          <div class="form-group">
+            <label for="exampleFormControlTextarea1">Your message here:</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Send</button>
 
 
+        </form>
       </div>
-  
-      );
-      }
 
-      export default Contact;
+
+    </div>
+  );
+}
+
+export default Contact;
