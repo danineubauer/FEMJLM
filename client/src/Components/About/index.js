@@ -1,4 +1,5 @@
 import React, { useContext } from "react";
+
 import { Grid } from "../Grid";
 import Imgone from '../Assets/Imgone.jpg';
 import Imgtwo from '../Assets/Imgtwo.jpg';
@@ -9,6 +10,7 @@ import Header from '../Header/index'
 import './style.css'
 import Textbox from "../Textbox/index";
 import Jumbotron from "../Jumbotron";
+import Newsletter from "../Newsletter";
 
 function About() {
 
@@ -79,15 +81,8 @@ function About() {
 
             </div>
           </div>
+          <Newsletter></Newsletter>
 
-          <div className='container'>
-            <p className="lead">
-              <h6>Get all the news fist!</h6>
-              <a className="btn btn-primary btn-lg" href="#" role="button">Join our mailing list
-              <input type="text" class="form-control" placeholder="Your email" aria-label="email-news" aria-describedby="basic-addon1"></input>
-              </a>
-            </p>
-          </div>
 
         </div>
       </div>

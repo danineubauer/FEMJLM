@@ -18,6 +18,7 @@ app.post('/api/form', (req, res) => {
     <ul>
       <li>First Name: ${req.body.name}</li>
       <li>Last Name: ${req.body.lastname}</li>
+      <li>Email Address: ${req.body.email}</li>
     </ul>
     <h3>Message:</h3>
     <p>${req.body.message}</p>
@@ -33,7 +34,7 @@ app.post('/api/form', (req, res) => {
 
     let mailOptions = { 
       from: 'femjerusalem@gmail.com',
-      to: 'femjerusalem@gmail.com', 
+      to: 'danineubauerr@gmail.com', 
       replyTo: 'test@testaccount.com',
       subject: 'New Message', 
       text: req.body.message,

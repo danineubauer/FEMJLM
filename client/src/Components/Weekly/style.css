@@ -3,6 +3,10 @@
     height: 350px;
 }
 
+.fb-post:hover { 
+    opacity: 0.7;
+}
+
 .femstar-title { 
     margin: 0;
     padding: 0;

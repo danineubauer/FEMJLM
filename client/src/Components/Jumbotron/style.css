@@ -2,9 +2,10 @@
   width:100%;
   height:600px;
   background-image: 
-  linear-gradient(to bottom, rgba(221, 218, 218, 0), rgba(36, 36, 37, 0.548)),
+  /* linear-gradient(to bottom, rgba(255, 251, 0, 0.144) , rgba(253, 0, 241, 0.137) 100%), */
 
-  url('../Assets/Group photo.jpg');
+  /* url('../Assets/Group photo.jpg'); */
+  url('../Assets/Jerusalem.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size:cover;

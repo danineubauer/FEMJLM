@@ -16,8 +16,8 @@ function Jumbotron({ children }) {
               </h4>
               <h4>
               קהילה של נשים בהייטק ויזמות בירושלים
-              </h4>
-              <h4><a href="#" className="btn btn-primary btn-large">Learn more »</a></h4>
+              </h4><br></br>
+              {/* <h4><a href="#" className="btn btn-primary btn-large">Learn more »</a></h4> */}
               <h4><a href="#" className="btn btn-primary btn-large">Donate</a></h4>
 
             </div>
