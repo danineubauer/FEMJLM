@@ -41,3 +41,7 @@
 .container { 
   width: 900px;
 }
+
+.btn { 
+  cursor: pointer;
+}

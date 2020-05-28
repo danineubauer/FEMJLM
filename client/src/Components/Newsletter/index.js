@@ -44,7 +44,7 @@ render(){
         <p className="lead">
           <a className="btn btn-lg" href="#" role="button"  ><h4>Subscribe to our newletter</h4>
             <input type="text" class="form-control" placeholder="Your email" aria-label="email-news" aria-describedby="basic-addon1" value={this.state.email} onChange={this.onNewsletterChange.bind(this)} onClick={this.onBtnClick.bind(this)} />
-            <button type='submit' className='btn-primary' id='subscribe' >Subscribe</button>
+            <button type='submit' id='btn' className='btn-primary btn' id='subscribe' >Subscribe</button>
           </a>
         </p>
       </div>

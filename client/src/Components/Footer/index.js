@@ -30,13 +30,13 @@ function Footer() {
           </a>
           <ul className="nav d-flex justify-content-center">
             <li className=" sm d-flex nav-item p-2">
-              <a className="nav-link active" href="#" class="fa fa-facebook"></a>
+              <a className="nav-link active" href="https://www.facebook.com/FemJLM/" target="_blank" class="fa fa-facebook"></a>
             </li>
             <li className="sm d-flex nav-item p-2">
-              <a className="nav-link active" href="#" class="fa fa-instagram"></a>
+              <a className="nav-link active" href="https://www.instagram.com/fem.jlm/"  target="_blank"  class="fa fa-instagram"></a>
             </li>
             <li className="sm d-flex nav-item p-2">
-              <a className="nav-link active" href="#" class="fa fa-linkedin"></a>
+              <a className="nav-link active" href="https://www.linkedin.com/company/fem-jlm/" target="_blank" class="fa fa-linkedin"></a>
             </li>
             <li className="sm d-flex nav-item p-2">
               <a className="nav-link active" href="#" class="fa fa-google"></a>
@@ -49,7 +49,7 @@ function Footer() {
 
 
           <a className="footer-copyright text-center py-3">© 2020 Copyright
-    <a href="#"> Danielle Neubauer</a>
+    <a href="https://www.linkedin.com/in/danielle-neubauer-2b00a3110/"  target="_blank">  Danielle Neubauer</a>
           </a></a></a>
     </div>
   );
