@@ -1,6 +1,6 @@
 .fb-post { 
     overflow-y:scroll;
-    height: 350px;
+    height: 100%;
 }
 
 .fb-post:hover { 
@@ -11,4 +11,5 @@
     margin: 0;
     padding: 0;
 }
+
 

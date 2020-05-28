@@ -82,10 +82,10 @@ function About() {
             </div>
           </div>
           <Newsletter></Newsletter>
-
-
         </div>
       </div>
+
+
     </div>
   );
 }
