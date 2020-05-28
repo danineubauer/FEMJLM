@@ -5,6 +5,8 @@ import About from './Components/About'
 import Weekly from './Components/Weekly'
 import Textbox from './Components/Textbox'
 import Contact from './Components/Contact'
+import ContactUs from './Components/ContactUs'
+
 import Footer from './Components/Footer'
 import Calendar from './Components/Calendar'
 import Photobanner from './Components/Photobanner'
@@ -19,6 +21,7 @@ function App() {
         <Weekly></Weekly>
         <Calendar></Calendar>
         <Contact></Contact>
+        {/* <ContactUs></ContactUs> */}
         <Photobanner></Photobanner>
         <Footer></Footer>
     </div>
