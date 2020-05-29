@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "homepage": "https://danineubauer.github.io/FEMJLM",
+  "homepage": "http://danineubauer.github.io/FEMJLM",
   "scripts": {
     "start": "node index.js",
     "predeploy": "npm run build",
