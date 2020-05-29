@@ -8,19 +8,19 @@ const app = express()
 require('dotenv').config();
 
 app.use(bodyParser.json())
-app.use(bodyParser.urlencoded({extended: true}))
+app.use(bodyParser.urlencoded({extended: false}))
 
 
 
-app.use(express.static(path.join(__dirname, 'build')))
+// app.use(express.static(path.join(__dirname, 'build')))
 
-app.get('/ping', (req, res) => {
-  return res.send('pong')
-})
+// app.get('/ping', (req, res) => {
+//   return res.send('pong')
+// })
 
-app.get('/', (req, res) => {
-  res.sendFile(path.join(__dirname, 'build', 'index.html'))
-})
+// app.get('/', (req, res) => {
+//   res.sendFile(path.join(__dirname, 'build', 'index.html'))
+// })
 
 
 app.post('/api/form', (req, res) => { 
