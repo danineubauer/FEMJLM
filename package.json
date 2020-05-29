@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "homepage": "http://danineubauer.github.io/FEMJLM",
+  "homepage": "https://danineubauer.github.io/FEMJLM",
   "scripts": {
     "start": "node index.js",
     "predeploy": "npm run build",
@@ -20,7 +20,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/danineubauer/FEMJLM.git"
+    "url": "https://github.com/danineubauer/FEMJLM.git"
   },
   "keywords": [],
   "author": "",
