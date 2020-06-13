@@ -8,9 +8,13 @@ const app = express()
 require('dotenv').config();
 
 app.use(bodyParser.json())
-app.use(bodyParser.urlencoded({extended: false}))
+app.use(bodyParser.urlencoded({extended: true}))
 
+app.use(express.static(path.join(__dirname, '/client/build')));
 
+app.get('*', (req, res) => {
+  res.sendFile(path.join(__dirname, 'client/build/index.html'));
+});
 
 // app.use(express.static(path.join(__dirname, 'build')))
 
@@ -48,6 +52,7 @@ app.post('/api/form', (req, res) => {
 
     let mailOptions = { 
       from: 'femjerusalem@gmail.com',
+      // to: 'ado.moshe@gmail.com', 
       to: 'danineubauerr@gmail.com', 
       replyTo: 'test@testaccount.com',
       subject: 'New Message', 
