@@ -52,8 +52,8 @@ app.post('/api/form', (req, res) => {
 
     let mailOptions = { 
       from: 'femjerusalem@gmail.com',
-      // to: 'ado.moshe@gmail.com', 
-      to: 'danineubauerr@gmail.com', 
+      to: 'ado.moshe@gmail.com', 
+      // to: 'danineubauerr@gmail.com', 
       replyTo: 'test@testaccount.com',
       subject: 'New Message', 
       text: req.body.message,
