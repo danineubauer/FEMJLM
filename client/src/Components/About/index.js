@@ -5,6 +5,11 @@ import Imgone from '../Assets/Imgone.jpg';
 import Imgtwo from '../Assets/Imgtwo.jpg';
 import Imgthree from '../Assets/Imgthree.jpg';
 import Imgfour from '../Assets/Imgfour.jpg';
+import c1 from '../Assets/c1.jpg';
+import c2 from '../Assets/c2.jpg';
+import c4 from '../Assets/c4.jpg';
+import c5 from '../Assets/c5.jpg';
+
 import Header from '../Header/index'
 
 import './style.css'
@@ -54,10 +59,6 @@ function About() {
 
               <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
                 <ol className="carousel-indicators">
-                  <li data-target="#carouselExampleIndicators" data-slide-to="0" className="active"></li>
-                  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                  <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
 
                 </ol>
 
@@ -74,6 +75,26 @@ function About() {
                   <div className="carousel-item">
                     <img src={Imgthree} className="carousel-img d-block w-100" alt="img"></img>
                   </div>
+
+
+                  <div className="carousel-item">
+                    <img src={c1} className="carousel-img d-block w-100" alt="img"></img>
+
+                  </div>
+                  <div className="carousel-item">
+                    <img src={c2} className="carousel-img d-block w-100" alt="img"></img>
+                  </div>
+
+                  <div className="carousel-item">
+                    <img src={c4} className="carousel-img d-block w-100" alt="img"></img>
+                  </div>
+                  <div className="carousel-item">
+                    <img src={c5} className="carousel-img d-block w-100" alt="img"></img>
+                  </div>
+
+
+
+
                 </div>
                 <a className="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
                   <span className="carousel-control-prev-icon" aria-hidden="true"></span>

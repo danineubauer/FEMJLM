@@ -10,6 +10,9 @@
 
 }
 
+.lead { 
+  font-size: 22px;
+}
 .carousel-img { 
   height: 100%;
   width: 100%;
@@ -18,8 +21,8 @@
 }
 
 .carousel-item { 
-  height: 400px;
-  width: 400px;
+  height: 460px;
+  width: 460px;
 }
 
 .jumbotron-header { 
