@@ -16,7 +16,7 @@ function About() {
 
   return (
     <div>
-      <br></br><hr></hr><br></br>
+      <br></br><br></br><br></br>
 
       <div className="container">
 
@@ -24,7 +24,7 @@ function About() {
           <div className="col-lg-12 col-md-12 col-sm-12">
 
             <div className="jumbotron jumbotron-header ">
-              <h2 className=" header display-4  ">Where the women of Jerusalem meet</h2>
+              <h2 className=" header display-4  ">Who we are</h2>
             </div>
           </div>
         </div>
@@ -33,12 +33,18 @@ function About() {
 
           <div className="col-lg-6 col-md-12 col-sm-12">
             <div className="jumbotron jumbotron-about">
-              <h5>About us</h5>
-              <p className="lead">We foster a diverse community for females in tech across Jerusalem to support women in their careers.
-              We address topics that center around women in tech .
-              Join us to network. do our workshops, get inspired at our events and xpand our the community of women in tech and entrepreneurship in Jerusalem and Israel.
-            </p>
+              {/* <h5>About us</h5> */}
 
+              <p className="lead">
+                FemJLM is Jerusalem's tech and entrepreneurship community, established by women and for
+                women, to address a known worldwide concern - the shortage of women as business leaders and
+                tech executives. Our goal is to create a unified, diverse community of female entrepreneurs and
+                techies in Jerusalem, whilst helping them progress in their careers in these fields. FemJLM
+                focuses on 5 main areas: community building, promoting high-tech careers for women, increasing
+                the number of women working in tech companies in Jerusalem, helping women progress from
+                junior to senior positions in hi tech, and cultivating a culture of inclusivity in tech for female
+                employees.
+            </p>
 
             </div>
           </div>

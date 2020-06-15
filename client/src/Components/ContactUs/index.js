@@ -39,7 +39,8 @@ function ContactUs() {
       <input type="email" name="user_email" />
       <label>Message</label>
       <textarea name="message" />
-      <input type="submit" value="Send" />
+      {/* <button type="submit" className="btn btn-link linkBtn" value='Send'></button> */}
+      {/* <input type="submit" value="Send" /> */}
     </form>
     </div>
   );

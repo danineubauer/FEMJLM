@@ -17,9 +17,9 @@ class Newsletter extends React.Component {
     event.preventDefault();
     console.log('newsletter submition', this.state.email)
 
-    if(this.state.email === "") { 
+    if (this.state.email === "") {
       alert('please submit an email address')
-    } else { 
+    } else {
       axios({
         method: "POST",
         url: 'api/form',
@@ -32,37 +32,61 @@ class Newsletter extends React.Component {
           alert("Message failed to send.")
         }
       })
-      alert ('Thank you! Welcome to the fam!')
+      alert('Thank you! Welcome to the fam!')
     }
   }
 
-render(){
+  render() {
 
-  return(
-<form id = 'subscription-form' onSubmit={this.handleSubmit.bind(this)} method="POST">
-      <div className='container'>
-        <p className="lead">
-          <a className="btn btn-lg" href="#" role="button"  ><h4>Subscribe to our newletter</h4>
-            <input type="text" class="form-control" placeholder="Your email" aria-label="email-news" aria-describedby="basic-addon1" value={this.state.email} onChange={this.onNewsletterChange.bind(this)} onClick={this.onBtnClick.bind(this)} />
-            <button type='submit' id='btn' className='btn-primary btn' id='subscribe' >Subscribe</button>
-          </a>
-        </p>
+    return (
+      <div>
+        <br></br>
+        <form id='subscription-form' onSubmit={this.handleSubmit.bind(this)} method="POST">
+          <div className='container'>
+            <div className='row'>
+              <div className='col-lg-12'>
+
+                <h5>Subscribe to our newsletter </h5>
+
+                <p className="lead">
+                  <a className="btn btn-lg"  href="#" role="button"  >
+                    <input type="text"   class="form-control" placeholder="Your email" aria-label="email-news" aria-describedby="basic-addon1" value={this.state.email} onChange={this.onNewsletterChange.bind(this)} onClick={this.onBtnClick.bind(this)} />
+                <button type='submit' className='btn btn-link linkBtn' id='subscribe' >Subscribe</button>
+                  </a>
+                </p>
+
+              </div>
+
+            </div>
+          </div>
+        </form>
       </div>
-</form>
-);
-}
 
-onNewsletterChange(e) { 
-  this.setState({ email: e.target.value})
-}
+      //  <form id = 'subscription-form' onSubmit={this.handleSubmit.bind(this)} method="POST">
+      //        <div className='container'>
+      //          <p className="lead">
+      //            <a className="btn btn-lg" href="#" role="button"  ><h4>Subscribe to our newletter</h4>
+      //              <input type="text" class="form-control" placeholder="Your email" aria-label="email-news" aria-describedby="basic-addon1" value={this.state.email} onChange={this.onNewsletterChange.bind(this)} onClick={this.onBtnClick.bind(this)} />
+      //              <button type='submit' id='btn' className='btn-primary btn' id='subscribe' >Subscribe</button>
+      //            </a>
+      //          </p>
+      //        </div>
+      //  </form>
+      //  </div>
+    );
+  }
 
-onBtnClick(e) { 
-  e.preventDefault()
-}
+  onNewsletterChange(e) {
+    this.setState({ email: e.target.value })
+  }
 
-handleclick(e) { 
-  e.preventDefault()
-}
+  onBtnClick(e) {
+    e.preventDefault()
+  }
+
+  handleclick(e) {
+    e.preventDefault()
+  }
 
 }
 

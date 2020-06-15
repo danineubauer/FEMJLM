@@ -2,10 +2,10 @@
   width:100%;
   height:600px;
   background-image: 
-  /* linear-gradient(to bottom, rgba(255, 251, 0, 0.144) , rgba(253, 0, 241, 0.137) 100%), */
+  linear-gradient(to bottom, rgba(10, 10, 10, 0.144) 50%, rgba(5, 5, 5, 0.137) 100%),
 
-  /* url('../Assets/Group photo.jpg'); */
-  url('../Assets/Jerusalem.jpg');
+  url('../Assets/Group photo.jpg');
+  /* url('../Assets/Jerusalem.jpg'); */
   background-repeat: no-repeat;
   background-position: center;
   background-size:cover;
@@ -15,37 +15,30 @@
   color:white;
   text-shadow:2px 2px #333;
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 1) 10%, rgba(100, 51, 51, 0.6) 86%, rgba(51, 51, 51, 0.8) 100%),
-  /*bottom image*/;
 }
-
-/* 
-.bgimage::after {
-  display: block;
-  position: relative;
-  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0, rgb(12, 11, 11) 100%);
-  margin-top: -150px;
-  height: 500px;
-  width: 100%;
-  content: '';
-} */
 
 h1 { 
   font-size: 100px;
 }
 h1, h4 { 
   color: white;
-  text-shadow: 2px 4px 4px #000000;
+  /* text-shadow: 2px 4px 4px #000000; */
 }
 .bgimage { 
-box-shadow: 0px 10px 20px -5px rgba(0,0,0,.8); 
-
+/* box-shadow: 0px 10px 20px -5px rgba(0,0,0,.8);  */
 }
 
-.btn { 
+.joinBtn { 
   background-color: #7C2B54;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: lighter;
   border: #7C2B54;
-  box-shadow: 0px 10px 20px -5px rgba(0,0,0,.8); 
-
-
+  /* box-shadow: 0px 10px 20px -5px rgba(0,0,0,.8);  */
+  justify-content: center;
+  padding: 10px;
+  color: white; 
+}
+.btn:hover { 
+  color: white
 }
 

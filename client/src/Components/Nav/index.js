@@ -9,13 +9,11 @@ function Nav() {
         <li className=" mr-auto p-2 nav-item">
         <a className='nav-logo'>
           <img  src={Logo} alt='logo' width="70" height="75" 
-          className="shadow  rounded-inline-block align-top " ></img>
+           ></img>
         </a>
         </li>
 
-      <li className="nav-item my-auto p-2">
-        <a className="nav-link active" href="#">Link</a>
-      </li>
+
       <li className="nav-item my-auto p-2">
         <a className="nav-link" href="#">English</a>
       </li>

@@ -8,8 +8,8 @@
 }
 
 .femstar-title { 
-    margin: 0;
-    padding: 0;
+    margin: 5px;
+    padding: 5px;
 }
 
 
@@ -43,4 +43,20 @@ body::-webkit-scrollbar-thumb {
     border: 2px solid rgb(255, 242, 218);  /* creates padding around scroll thumb */
   }
 
+  .containerCommunity { 
+    width: 1700px;
+    max-width: 1350px;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+  }
+
+  iframe { 
+    border: 1px solid lightgray;
+  }
+
+  .fb-post { 
+    border: 1px solid lightgray;
+
+  }
 

@@ -92,7 +92,7 @@ class Contact extends React.Component {
               <label for="exampleFormControlTextarea1">Your message here:</label>
               <textarea class="form-control" id="exampleFormControlTextarea1" rows="10" value={this.state.message} onChange={this.onMessageChange.bind(this)} />
             </div>
-            <button type="submit" class="btn btn-primary">Send</button>
+            <button type="submit" class="btn btn-link linkBtn">Send</button>
   
   
           </form>

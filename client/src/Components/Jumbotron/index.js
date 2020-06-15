@@ -15,10 +15,10 @@ function Jumbotron({ children }) {
               مجتمع التكنولوجيا والريادة المقدسي للسيدات
               </h4>
               <h4>
-              קהילה של נשים בהייטק ויזמות בירושלים
+              קהילת נשות ההייטק והיזמות בירושלים
               </h4><br></br>
               {/* <h4><a href="#" className="btn btn-primary btn-large">Learn more »</a></h4> */}
-              <h4><a href="#" className="btn btn-primary btn-large">Donate</a></h4>
+              <a href="https://airtable.com/shrvxB1TmF1TSuDDv" className="joinBtn  btn-large">Join the Fem</a>
 
             </div>
           </div>

@@ -6,7 +6,7 @@
   height: 100%;
   padding: 0;
   margin: 0;
-  box-shadow: 0px 10px 20px -5px rgba(0,0,0,.8); 
+  /* box-shadow: 0px 10px 20px -5px rgba(0,0,0,.8);  */
 
 }
 
@@ -19,6 +19,7 @@
 
 .carousel-item { 
   height: 400px;
+  width: 400px;
 }
 
 .jumbotron-header { 
@@ -30,8 +31,8 @@
 
 .jumbotron-about {
   background-color: white;
-  box-shadow: 0px 10px 20px -5px rgba(0,0,0,.8); 
-  height: 400px;
+  /* height: 700px; */
+  padding: 0;
 }
 
 .header { 
@@ -39,7 +40,7 @@
 }
 
 .container { 
-  width: 900px;
+  width: 1000px;
 }
 
 .btn { 

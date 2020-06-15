@@ -38,12 +38,7 @@ function Footer() {
             <li className="sm d-flex nav-item p-2">
               <a className="nav-link active" href="https://www.linkedin.com/company/fem-jlm/" target="_blank" class="fa fa-linkedin"></a>
             </li>
-            <li className="sm d-flex nav-item p-2">
-              <a className="nav-link active" href="#" class="fa fa-google"></a>
-            </li>
-            <li className="sm d-flex  nav-item p-2">
-              <a className="nav-link active" href="#" class="fa fa-twitter"></a>
-            </li>
+  
           </ul>
 
 
