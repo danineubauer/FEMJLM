@@ -6,7 +6,6 @@ import Weekly from "./Components/Weekly";
 import Contact from "./Components/Contact";
 import Footer from "./Components/Footer";
 import Calendar from "./Components/Calendar";
-// import Photobanner from "./Components/Photobanner";
 import "./App.css";
 
 function App() {
@@ -18,7 +17,6 @@ function App() {
       <Weekly />
       <Calendar />
       <Contact />
-      {/* <Photobanner /> */}
       <Footer />
     </div>
   );
