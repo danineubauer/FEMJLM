@@ -17,7 +17,7 @@
     "react": "^16.13.1",
     "react-axios": "^2.0.3",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.1",
+    "react-scripts": "^3.4.3",
     "save": "^2.4.0",
     "use-axios-react": "^0.2.3"
   },
